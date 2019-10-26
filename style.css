@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 body{
-	background: blue;
+	background: #28289e;
 }
 a{
 	text-decoration: none;
@@ -55,4 +55,13 @@ a{
     top: 45px;
     left: calc(50% - 12px);
 
+}
+
+.author{
+	position: fixed;
+	bottom: 100px;
+	right: 100px;
+}
+.author p a{
+	color: white;
 }
