@@ -34,15 +34,14 @@ a{
 	height: 50px;
 	line-height: 50px;
 } 
-#Menu li:hover ul {
-	
+#Menu li:hover ul {	
 	background: white;
 	display: block;
 }
 #Menu li:hover ul > li{
 	color: black;
 }
-#Menu > li:hover:before{
+#Menu > li.dropdown:hover:before{
 	position: absolute;
 	content: '';
 	display: block;
